@@ -27,7 +27,7 @@ For the completion of this assignment the following materials had been used:
 6) Sending Message to user through Line Notify.【Your caat is eating】  
 ### Flow
 ```
-                                                                                                                                                          】
+                                                                                                                                                          
 
 
                                                       ┌──────────────┐                                                         ┌───────────────┐
@@ -39,8 +39,8 @@ For the completion of this assignment the following materials had been used:
 └───────────┘                   └─────────────┘  │    └──────────────────┘                 │                       │       │   ┌─────────────────────┐
                                                  │                                         └───────────────────────┘       │   │ Sending Line Notify.│
                                                  │    ┌─────────────────────┐                                              └───┤                     │
-                                                 └───►│ Sending Line Notify.│                                                  │  【 pet is eating】   │
+                                                 └───►│ Sending Line Notify.│                                                  │  【 pet is eating】  │
                                                       │                     │                                                  └─────────────────────┘
-                                                      │【 Feed Finished】     │
+                                                      │【 Feed Finished】    │
                                                       └─────────────────────┘
 ```
