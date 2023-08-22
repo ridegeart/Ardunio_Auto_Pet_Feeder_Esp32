@@ -26,7 +26,7 @@ For the completion of this assignment the following materials had been used:
 5) Detected that pet is eating (PIR) -> LED Lighting
 6) Sending Message to user through Line Notify.【Your caat is eating】  
 
-```flow
+``` flow
 st=>start: Setting feeding Time
 cond=>condition: when the time comes?
 op=>operation: Motor start up -> Feed poured out & buzzer ring
