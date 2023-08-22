@@ -24,7 +24,7 @@ For the completion of this assignment the following materials had been used:
 2) Motor start up -> Feed poured out & buzzer ring
 4) Sending Message to user through Line Notify.【Feed Finished】
 5) Detected that pet is eating (PIR) -> LED Lighting
-6) Sending Message to user through Line Notify.【Your caat is eating】
+6) Sending Message to user through Line Notify.【Your caat is eating】  
 
 ```flow
 st=>start: Setting feeding Time
