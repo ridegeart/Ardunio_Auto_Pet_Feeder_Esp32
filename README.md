@@ -19,13 +19,7 @@ For the completion of this assignment the following materials had been used:
 3. Line Notify:RTC+WiFi
    - Connect the mobile phone through Line Notify to notify user that 1)food has been delivered and 2)the cat is eating.
 ## Flow Chart
-1) Setting feeding Time.
-  (when the time comes)
-2) Motor start up -> Feed poured out & buzzer ring
-4) Sending Message to user through Line Notify.【Feed Finished】
-5) Detected that pet is eating (PIR) -> LED Lighting
-6) Sending Message to user through Line Notify.【Your caat is eating】  
-### Flow
+
 ```
                                                                                                                                                           
 
@@ -39,8 +33,8 @@ For the completion of this assignment the following materials had been used:
 └───────────┘                   └─────────────┘  │    └──────────────────┘                 │                       │       │   ┌─────────────────────┐
                                                  │                                         └───────────────────────┘       │   │ Sending Line Notify.│
                                                  │    ┌─────────────────────┐                                              └───┤                     │
-                                                 └───►│ Sending Line Notify.│                                                  │  【 pet is eating】  │
+                                                 └───►│ Sending Line Notify.│                                                  │ 【 pet is eating 】  │
                                                       │                     │                                                  └─────────────────────┘
-                                                      │【 Feed Finished】    │
+                                                      │【 Feed Finished 】   │
                                                       └─────────────────────┘
 ```
