@@ -26,3 +26,21 @@ For the completion of this assignment the following materials had been used:
 5) Detected that pet is eating (PIR) -> LED Lighting
 6) Sending Message to user through Line Notify.【Your caat is eating】  
 ### Flow
+```
+                                                                                                                                                          】
+
+
+                                                      +--------------+                                                         +---------------+
+                                                 +--->| buzzer ring  |                                                     +---+ LED Lighting  |
+                                                 |    +--------------+                     +-----------------------+       |   +---------------+
+                                                 |                                         |                       |       |
++-----------+ when time comes   +-------------+  |    +------------------+                 | Whether pet is eating | Yes   |
+| set time  +------------------>| Motor start +--+--->|  Feed poured out +---------------->|     (PIR sensor)      +------>|
++-----------+                   +-------------+  |    +------------------+                 |                       |       |   +---------------------+
+                                                 |                                         +-----------------------+       |   | Sending Line Notify.|
+                                                 |    +---------------------+                                              +---+                     |
+                                                 +--->| Sending Line Notify.|                                                  |  【 pet is eating】   |
+                                                      |                     |                                                  +---------------------+
+                                                      |【 Feed Finished】     |
+                                                      +---------------------+
+```
